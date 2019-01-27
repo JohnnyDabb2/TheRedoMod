@@ -18,7 +18,7 @@ namespace TheRedoMod.Items
 			item.height = 400;
 			item.useTime = 2;
 			item.useAnimation = 10;
-			item.pick = 2000;
+			item.pick = 250;
 			item.expert = true;
 			item.useStyle = 1;
 			item.knockBack = 40;

@@ -30,7 +30,7 @@ namespace TheRedoMod.Items
 		ModRecipe recipe = new ModRecipe(mod);
         recipe.AddIngredient(3183);
 		recipe.AddIngredient(1198, 20);
-		recipe.AddTile(412);
+		recipe.AddTile(TileID.AdamantiteForge);
 		recipe.SetResult(this);
 		recipe.AddRecipe();
 }}}
