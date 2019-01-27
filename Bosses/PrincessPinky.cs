@@ -21,5 +21,4 @@ namespace TheRedoMod.Bosses
 		music = MusicID.Boss1;
 		npc.lavaImmune = true;
 		npc.noGravity = false;
-		npc.netAlways = true;
 }}}

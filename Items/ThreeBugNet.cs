@@ -6,17 +6,15 @@ namespace TheRedoMod.Items
 {
 	public class ThreeBugNet : ModItem
 	{
-		public override void SetStaticDefaults()
-		{
+		public override void SetStaticDefaults() {
 			DisplayName.SetDefault("Titanium Catcher");
-			Tooltip.SetDefault("test");
 		}
 		public override void SetDefaults()
 		{
 			item.melee = true;
 			item.width = 800;
 			item.height = 800;
-			item.useTime = 5;
+			item.useTime = 22;
 			item.useAnimation = 25;
 			item.useTurn = true;
 			item.useStyle = 1;
@@ -25,10 +23,14 @@ namespace TheRedoMod.Items
 			item.rare = 5;
 			item.UseSound = SoundID.Item1;
 			item.autoReuse = true;
+		}
 
+		public override void AddRecipes()
+{
 		ModRecipe recipe = new ModRecipe(mod);
         recipe.AddIngredient(3183);
 		recipe.AddIngredient(1198, 20);
+		recipe.AddTile(412);
 		recipe.SetResult(this);
 		recipe.AddRecipe();
 }}}
