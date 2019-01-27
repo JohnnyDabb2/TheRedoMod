@@ -1,3 +1,0 @@
-author = JohnnyDabb2
-version = 0.1
-displayName = The Redo Mod
