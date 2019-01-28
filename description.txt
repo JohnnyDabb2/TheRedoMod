@@ -1,18 +1,29 @@
-This mod currently adds 9 items and 1 boss.  There is far more content coming, so downloading it now wouldn't be a bad idea.
-
-
-The homepage is a link to this mod's discord server!
+This mod currently adds 8 items and 1 boss.  There is far more content coming, so downloading it now wouldn't be a bad idea.  The homepage is a link to this mod's discord server!
 
 
 
-1) Players created with this mod installed will have a new item within their inventory, the Goodie Bag. Right click on this item for a pleasant surprise!
+CURRENT FEATURES >>
 
-2) The Money Trough item can now be crafted with a piggy bank and 30 cloud, making it far easier to obtain.
+1) The Money Trough can now be crafted with a piggy bank and 100 cloud, making it far easier to obtain.
 
-3) New Boss!  Princess Pinky is a difficult pre-hardmode boss that can be spawned with a Pinky Crown.  She is thought be King Slime's daughter, but that's probably just a myth.  If you are lucky enough to defeat this boss, you will obtain a new weapon, the Pinky Pie!
+2) Players created with this mod installed will have a new item in their inventory, the Goodie Bag.  Right click on this item for a pleasant surprise!
 
-4) New Bug Net item!  The Titanium Catcher can be crafted with 20 titanium bars and 1 golden bug net. It function just like the Golden Bug net, except it's slightly larger and has a way cooler name.  In case you're still confused, it's basically the improved golden bug net.
+3) New Boss!  Princess Pinky can be spawned with a Pinky Crown.  Sadly, I'm still working on her AI.  Long story short, she doesn't do much at the moment.
 
-5) The Moon Lord no longer drops a random endgame weapon.  Instead, he drops one Endgame Token, which can be crafted into any weapon of the nine that he drops.  Essentially, you get to choose which weapon you get from him.
+4) New Bug Net!  The Titanium Catcher can be crafted with 20 titanium bars and 1 golden bug net.  It doesn't work yet.
 
-6) When standing near an Ancient Manipulator, you should be able to craft another token, the Token of Epicness.  This is a way to new Endgame items, most of which are better than the items from Moon Lord.
+5) More items are in the mod, however they are unobtainable.  If you want everything this mod has to offer, download a mod like Cheat Sheet and spawn in the items via the browser.
+
+
+
+THE NEXT UPDATE >>
+
+1) Princess Pinky will actually do something.
+
+2) The Titanium Catcher will work like the Bug Net.
+
+3) The Adamantite Catcher will be added.
+
+4) A Princess Pinky treasure bag will be added, along with a new yoyo to go with it.
+
+5) The Moon Lord won't drop a random endgame weapon.  Instead, he will drop one Endgame Token, which can be crafted into any weapon of the nine that he drops.
