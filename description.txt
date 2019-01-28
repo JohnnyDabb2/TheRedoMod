@@ -1,8 +1,8 @@
-This mod currently adds 8 items and 1 boss.  There is far more content coming, so downloading it now wouldn't be a bad idea.  The homepage is a link to this mod's discord server!
+This mod currently adds 5 items and 1 boss.  There is far more content coming, so downloading it now wouldn't be a bad idea.  The homepage is a link to this mod's discord server!
 
 
 
-CURRENT FEATURES >>
+CURRENT FEATURES
 
 1) The Money Trough can now be crafted with a piggy bank and 100 cloud, making it far easier to obtain.
 
@@ -16,7 +16,7 @@ CURRENT FEATURES >>
 
 
 
-THE NEXT UPDATE >>
+THE NEXT UPDATE
 
 1) Princess Pinky will actually do something.
 
@@ -25,5 +25,3 @@ THE NEXT UPDATE >>
 3) The Adamantite Catcher will be added.
 
 4) A Princess Pinky treasure bag will be added, along with a new yoyo to go with it.
-
-5) The Moon Lord won't drop a random endgame weapon.  Instead, he will drop one Endgame Token, which can be crafted into any weapon of the nine that he drops.
