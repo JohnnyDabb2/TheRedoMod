@@ -1,3 +1,5 @@
+using System;
+using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -11,6 +13,7 @@ namespace TheRedoMod.Bosses
 	{
 		npc.lifeMax = 3000;
 		npc.damage = 80;
+		npc.aiStyle = 1;
 		npc.defense = 20;
 		npc.width = 80;
 		npc.height = 80;
@@ -21,4 +24,12 @@ namespace TheRedoMod.Bosses
 		music = MusicID.Boss1;
 		npc.lavaImmune = true;
 		npc.noGravity = false;
-}}}
+}
+
+	public override void NPCLoot()
+	{
+	Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType("PinkyPieYoyo"));
+	Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, ItemID.PinkGel, 30);
+	Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, ItemID.PinkGel, 1 + Main.rand.Next(8));
+	Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, ItemID.SilverCoin, 30);
+	}}}

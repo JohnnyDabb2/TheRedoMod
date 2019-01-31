@@ -1,14 +1,14 @@
-This mod currently adds 4 items and 1 boss.  There is far more content coming, so downloading it now wouldn't be a bad idea.  The homepage is a link to this mod's discord server!
+This mod currently adds 5 items and 1 boss.  There is far more content coming, so downloading this mod now wouldn't be a bad idea.  The homepage is a link to this mod's discord server!
 
 
 
 CURRENT FEATURES
 
-1) The Money Trough can now be crafted with a piggy bank and 100 cloud, making it far easier to obtain.
+1) The Money Trough can be crafted with a piggy bank and 100 cloud, making it far easier to obtain.
 
 2) Players created with this mod installed will have a new item in their inventory, the Goodie Bag.  Right click on this item for a pleasant surprise!
 
-3) New Boss!  Princess Pinky can be spawned with a Pinky Crown.  Sadly, I'm still working on her AI.  Long story short, she doesn't do much at the moment.
+3) New Boss!  Princess Pinky can be spawned with a Pinky Crown.  Sadly, I'm still working on her AI.  She's still a huge work in progress.
 
 4) New Bug Net!  The Titanium Catcher can be crafted with 20 titanium bars and 1 golden bug net.  It doesn't work yet.
 
@@ -16,10 +16,8 @@ CURRENT FEATURES
 
 THE NEXT UPDATE
 
-1) Princess Pinky will actually do something.
+1) Princess Pinky will have her own AI.
 
 2) The Titanium Catcher will work like the Bug Net.
 
-3) The Adamantite Catcher will be added.
-
-4) A Princess Pinky treasure bag will be added, along with a new yoyo to go with it.
+3) A Princess Pinky treasure bag will be added, along with a mask and trophy.
