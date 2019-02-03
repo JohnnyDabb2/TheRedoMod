@@ -20,7 +20,7 @@ namespace TheRedoMod
             items.RemoveAt(0);
 			
             Item item = new Item();
-            item.SetDefaults(mod.ItemType("BagGoodies"));
+            item.SetDefaults(mod.ItemType("GoodieBag"));
             item.stack = 1;
             items.Add(item);
 }}}
