@@ -7,7 +7,7 @@ namespace TheRedoMod.Items
 	public class ThreeBugNet : ModItem
 	{
 		public override void SetStaticDefaults() {
-			DisplayName.SetDefault("Titanium Catcher");
+			DisplayName.SetDefault("Titanium Bug Catcher");
 		}
 		public override void SetDefaults()
 		{
