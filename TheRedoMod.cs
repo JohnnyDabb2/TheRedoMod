@@ -1,6 +1,7 @@
 using Terraria.ModLoader;
 using Terraria.ID;
 using Terraria;
+using TheRedoMod.Bosses;
 
 namespace TheRedoMod
 {
@@ -15,4 +16,5 @@ namespace TheRedoMod
 			recipe.AddTile(TileID.WorkBenches);
 			recipe.SetResult(3213);
 			recipe.AddRecipe();
+			
 }}}

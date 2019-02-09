@@ -1,4 +1,4 @@
 author = JohnnyDabb2
-version = 0.1.11
+version = 0.1.12
 displayName = The Redo Mod
 homepage = https://discord.gg/vrUukte
