@@ -11,10 +11,9 @@ namespace TheRedoMod
 	public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(this);
-			recipe.AddIngredient(ItemID.Cloud, 100);
+			recipe.AddIngredient(ItemID.Cloud, 70);
 			recipe.AddIngredient(ItemID.PiggyBank);
-			recipe.AddTile(TileID.WorkBenches);
+			recipe.AddTile(412);
 			recipe.SetResult(3213);
 			recipe.AddRecipe();
-			
 }}}

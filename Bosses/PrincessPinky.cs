@@ -11,12 +11,12 @@ namespace TheRedoMod.Bosses
 
 	public override void SetDefaults()
 	{
-		npc.lifeMax = 4700;
-		npc.damage = 90;
+		npc.lifeMax = 5000;
+		npc.damage = 70;
 		npc.aiStyle = 1;
 		npc.defense = 40;
-		npc.width = 122;
-		npc.height = 115;
+		npc.width = 61;
+		npc.height = 58;
 		npc.knockBackResist = 0;
 		npc.boss = true;
 		npc.lavaImmune = true;
@@ -24,7 +24,7 @@ namespace TheRedoMod.Bosses
 		npc.DeathSound = SoundID.NPCDeath1;
 		animationType = NPCID.KingSlime;
 		music = MusicID.Boss1;
-		Main.npcFrameCount[npc.type] = 4;
+		Main.npcFrameCount[npc.type] = 6;
 }
 
 	public override void NPCLoot()

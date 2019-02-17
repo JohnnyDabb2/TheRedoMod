@@ -1,6 +1,7 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using Terraria.DataStructures;
 
 namespace TheRedoMod.Items
 {
@@ -8,7 +9,8 @@ namespace TheRedoMod.Items
     {
         public override void SetStaticDefaults()
         {
-            Tooltip.SetDefault("What do you want?");
+            Tooltip.SetDefault("Choose your own adventure!");
+			Main.RegisterItemAnimation(item.type, new DrawAnimationVertical(5, 2));
         }
 
         public override void SetDefaults()
