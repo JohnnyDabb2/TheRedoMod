@@ -12,7 +12,6 @@ namespace TheRedoMod.Tiles
 			Main.tileBlockLight[Type] = true;
 			Main.tileLighted[Type] = true;
 			drop = mod.ItemType("InvisibleBlock");
-			AddMapEntry(new Color(0, 0, 0));
 		}
 	}
 }

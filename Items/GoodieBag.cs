@@ -22,8 +22,6 @@ namespace TheRedoMod.Items
 		}
 
 		public override void RightClick(Player player) {
-			player.QuickSpawnItem(ItemID.LifeCrystal);
-			player.QuickSpawnItem(ItemID.ManaCrystal);
 			player.QuickSpawnItem(ItemID.CopperPickaxe);
 			player.QuickSpawnItem(ItemID.CopperHammer);
 			player.QuickSpawnItem(ItemID.CopperAxe);

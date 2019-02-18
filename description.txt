@@ -1,18 +1,31 @@
-This mod currently adds 5 items and 1 boss.  There is far more content coming, so downloading it now wouldn't be a bad idea.  If you have any questions, please join the discord server by clicking the homepage button!
+This mod currently adds 6 items and 1 boss.  There is far more content coming, so downloading it now wouldn't be a bad idea.  If you have any questions, please join the discord server by clicking the homepage button!
 
 
 
 
 CURRENT FEATURES
 
-1) The Money Trough can be crafted with a piggy bank and 70 cloud, as long as you are standing near your Ancient Manipulator!
+1) The Money Trough can be crafted with a piggy bank and 70 cloud, as long as you're standing near an Ancient Manipulator!
 
 2) Princess Pinky is a new boss that can be spawned with a Pinky Crown.  If you want to know more information about this boss, let me know on the discord server.
 
-3) You'll have a new starting item in your inventory, the Goodie Bag.  Right click on this item for a pleasant surprise!
+3) You'll have a new starting item in your inventory, the Goodie Bag.  Right click on this item for a pleasant surprise!  Yes, this is based on the Starter Bag from Calamity.
 
-4) Lavaspark Footwear can be crafted at the Tinkerer's Workshop with Lava Waders and Frostspark Boots.  Sadly, they're still a huge work in progress.  As of right now, they give you the Spelunker buff for some reason.  This will be fixed in the next update.
+4) A Unicorn Chest can be crafted with one Marble Chest and five Unicorn Horns.  The sprite will be updated soon.
 
-5) With only five dirt, an Invisible Block can be crafted at the Ancient Manipulator.
+5) One Invisible Block can be crafted with five Dirt Blocks at the Ancient Manipulator.  Two Invisible Platforms can be crafted with one Invisible Block.  These tiles are nearly impossible to find, so only use them if you know you want to!
 
-6) There's only a few things that I didn't mention here.  I'll try to include every from now on.
+
+
+
+UPCOMING FEATURES
+
+1) Princess Pinky Mask, Trophy, and Treasure Bag.
+
+2) A new buff that lets you see the Invisible Platforms and Blocks.
+
+3) Fire Sickle.  It's like the Death Sickle but better.
+
+4) More Unicorn Furniture.
+
+5) A few new yoyos, incluing one for Princess Pinky's Treasure Bag.

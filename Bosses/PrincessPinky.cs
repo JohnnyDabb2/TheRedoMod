@@ -13,9 +13,9 @@ namespace TheRedoMod.Bosses
 	{
 		npc.lifeMax = 5000;
 		npc.damage = 70;
-		npc.aiStyle = 1;
 		npc.defense = 40;
 		npc.width = 61;
+		npc.aiStyle = 1;
 		npc.height = 58;
 		npc.knockBackResist = 0;
 		npc.boss = true;
@@ -31,5 +31,5 @@ namespace TheRedoMod.Bosses
 	{
 	Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, ItemID.PinkGel, 30);
 	Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, ItemID.PinkGel, 1 + Main.rand.Next(8));
-	Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, ItemID.SilverCoin, 30 + Main.rand.Next(8));
-	}}}
+	Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, ItemID.SilverCoin, 28 + Main.rand.Next(6));
+}}}

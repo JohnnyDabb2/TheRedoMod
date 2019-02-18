@@ -48,6 +48,16 @@ namespace TheRedoMod.Items
         recipe4.AddIngredient(this);
 		recipe4.SetResult(ItemID.GoldBow);
 		recipe4.AddRecipe();
+		
+		ModRecipe recipe5 = new ModRecipe(mod);
+        recipe5.AddIngredient(this);
+		recipe5.SetResult(ItemID.LifeCrystal, 2);
+		recipe5.AddRecipe();
+		
+		ModRecipe recipe6 = new ModRecipe(mod);
+        recipe6.AddIngredient(this);
+		recipe6.SetResult(ItemID.ManaCrystal, 2);
+		recipe6.AddRecipe();
 		}
     }
 }
