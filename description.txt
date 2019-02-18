@@ -14,18 +14,3 @@ CURRENT FEATURES
 4) A Unicorn Chest can be crafted with one Marble Chest and five Unicorn Horns.  The sprite will be updated soon.
 
 5) One Invisible Block can be crafted with five Dirt Blocks at the Ancient Manipulator.  Two Invisible Platforms can be crafted with one Invisible Block.  These tiles are nearly impossible to find, so only use them if you know you want to!
-
-
-
-
-UPCOMING FEATURES
-
-1) Princess Pinky Mask, Trophy, and Treasure Bag.
-
-2) A new buff that lets you see the Invisible Platforms and Blocks.
-
-3) Fire Sickle.  It's like the Death Sickle but better.
-
-4) More Unicorn Furniture.
-
-5) A few new yoyos, incluing one for Princess Pinky's Treasure Bag.
