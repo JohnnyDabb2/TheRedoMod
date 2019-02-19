@@ -2,20 +2,22 @@ using System;
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
+using TheRedoMod.Items;
 using Terraria.ModLoader;
 
 namespace TheRedoMod.Bosses
 
 {
-	public class PrincessPinky : ModNPC {
+	public class PrincessPinky : ModNPC
 
+{
 	public override void SetDefaults()
 	{
 		npc.lifeMax = 5000;
 		npc.damage = 70;
 		npc.defense = 40;
-		npc.width = 61;
 		npc.aiStyle = 1;
+		npc.width = 61;
 		npc.height = 58;
 		npc.knockBackResist = 0;
 		npc.boss = true;
@@ -31,5 +33,13 @@ namespace TheRedoMod.Bosses
 	{
 	Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, ItemID.PinkGel, 30);
 	Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, ItemID.PinkGel, 1 + Main.rand.Next(8));
+	Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType<Items.PinkyPie>());
 	Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, ItemID.SilverCoin, 28 + Main.rand.Next(6));
-}}}
+	}
+
+	public override void AI()
+		{
+		npc.TargetClosest(true);
+		}
+	}
+}

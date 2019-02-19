@@ -2,7 +2,6 @@ This mod currently adds 6 items and 1 boss.  There is far more content coming, s
 
 
 
-
 CURRENT FEATURES
 
 1) The Money Trough can be crafted with a piggy bank and 70 cloud, as long as you're standing near an Ancient Manipulator!
@@ -11,6 +10,4 @@ CURRENT FEATURES
 
 3) You'll have a new starting item in your inventory, the Goodie Bag.  Right click on this item for a pleasant surprise!  Yes, this is based on the Starter Bag from Calamity.
 
-4) A Unicorn Chest can be crafted with one Marble Chest and five Unicorn Horns.  The sprite will be updated soon.
-
-5) One Invisible Block can be crafted with five Dirt Blocks at the Ancient Manipulator.  Two Invisible Platforms can be crafted with one Invisible Block.  These tiles are nearly impossible to find, so only use them if you know you want to!
+4) One Invisible Block can be crafted with five Dirt Blocks at the Ancient Manipulator.  Two Invisible Platforms can be crafted with one Invisible Block.  These tiles are nearly impossible to find, so only use them if you know you want to!
