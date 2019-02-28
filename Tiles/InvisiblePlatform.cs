@@ -1,3 +1,4 @@
+using System;
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
@@ -25,7 +26,6 @@ namespace TheRedoMod.Tiles
 			TileObjectData.newTile.UsesCustomCanPlace = false;
 			TileObjectData.newTile.LavaDeath = true;
 			TileObjectData.addTile(Type);
-			dustType = mod.DustType("Sparkle");
 			drop = mod.ItemType("InvisiblePlatform");
 			disableSmartCursor = true;
 			adjTiles = new int[] { TileID.Platforms };
@@ -33,10 +33,4 @@ namespace TheRedoMod.Tiles
 
 		public override void PostSetDefaults() {
 			Main.tileNoSunLight[Type] = false;
-		}
-
-		public override void NumDust(int i, int j, bool fail, ref int num) {
-			num = fail ? 1 : 3;
-		}
-	}
-}
+}}}

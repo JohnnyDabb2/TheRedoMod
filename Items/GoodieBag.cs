@@ -1,3 +1,4 @@
+using System;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -15,6 +16,7 @@ namespace TheRedoMod.Items
 			item.width = 20;
 			item.height = 20;
 			item.rare = 2;
+			item.consumable = true;
 		}
 
 		public override bool CanRightClick() {

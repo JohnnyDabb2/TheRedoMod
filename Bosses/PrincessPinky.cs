@@ -1,19 +1,19 @@
 using System;
 using Microsoft.Xna.Framework;
+using Terraria.Localization;
 using Terraria;
 using Terraria.ID;
 using TheRedoMod.Items;
 using Terraria.ModLoader;
 
 namespace TheRedoMod.Bosses
-
 {
-	public class PrincessPinky : ModNPC
-
+	[AutoloadBossHead]
+		public class PrincessPinky : ModNPC
 {
 	public override void SetDefaults()
 	{
-		npc.lifeMax = 5000;
+		npc.lifeMax = 4000;
 		npc.damage = 70;
 		npc.defense = 40;
 		npc.aiStyle = 1;
@@ -27,19 +27,31 @@ namespace TheRedoMod.Bosses
 		animationType = NPCID.KingSlime;
 		music = MusicID.Boss1;
 		Main.npcFrameCount[npc.type] = 6;
+		bossBag = mod.ItemType("PinkyBossBag");
 }
+		public override void ScaleExpertStats(int numPlayers, float bossLifeScale)
+		{
+			npc.lifeMax = (int)(npc.lifeMax * 0.78f * bossLifeScale);
+			npc.damage = (int)(npc.damage * 0.6f);
+		}
 
 	public override void NPCLoot()
 	{
-	Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, ItemID.PinkGel, 30);
-	Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, ItemID.PinkGel, 1 + Main.rand.Next(8));
-	Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType<Items.PinkyPie>());
-	Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, ItemID.SilverCoin, 28 + Main.rand.Next(6));
-	}
+
+	if (Main.expertMode)
+			{
+			npc.DropBossBags();
+			}
+
+	if (!Main.expertMode)
+	{
+		Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, ItemID.PinkGel, 30);
+		Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, ItemID.PinkGel, 1 + Main.rand.Next(8));
+		Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType<Items.PinkyPie>());
+		Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, ItemID.SilverCoin, 28 + Main.rand.Next(6));
+}}
 
 	public override void AI()
 		{
 		npc.TargetClosest(true);
-		}
-	}
-}
+}}}
