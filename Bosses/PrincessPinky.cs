@@ -42,12 +42,10 @@ namespace TheRedoMod.Bosses
 	{
 		NPC.NewNPC((int)npc.position.X, (int)npc.position.Y, -4);
 		NPC.NewNPC((int)npc.position.X, (int)npc.position.Y, -4);
-		NPC.NewNPC((int)npc.position.X, (int)npc.position.Y, -4);
 	}
 
 	if (Main.expertMode)
 	{
-		NPC.NewNPC((int)npc.position.X, (int)npc.position.Y, -4);
 		NPC.NewNPC((int)npc.position.X, (int)npc.position.Y, -4);
 		NPC.NewNPC((int)npc.position.X, (int)npc.position.Y, -4);
 		NPC.NewNPC((int)npc.position.X, (int)npc.position.Y, -4);
@@ -63,7 +61,7 @@ namespace TheRedoMod.Bosses
 	{
 		Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, ItemID.PinkGel, 30);
 		Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, ItemID.PinkGel, 1 + Main.rand.Next(8));
-		Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType<Items.Weapons.PinkyPie>());
+		Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, mod.ItemType<Items.PinkyPie>());
 		Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, ItemID.SilverCoin, 58 + Main.rand.Next(6));
 }}
 
