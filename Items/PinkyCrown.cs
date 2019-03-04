@@ -1,3 +1,4 @@
+using System;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -19,7 +20,6 @@ namespace TheRedoMod.Items
 			item.useTime = 39;
 			item.useStyle = 4;
 			item.consumable = true;
-		
 			}
 		
 		public override bool CanUseItem(Player player) {
