@@ -9,7 +9,6 @@ namespace TheRedoMod.Items
 {
     public class PinkyPie : ModItem
     {
-
         public override void SetDefaults()
         {
 			item.maxStack = 1;
@@ -29,4 +28,4 @@ namespace TheRedoMod.Items
 			item.noUseGraphic = true;
 			item.melee = true;
 			item.value = Item.sellPrice(silver: 75);
-}}}
+	}}}

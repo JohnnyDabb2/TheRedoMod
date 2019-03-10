@@ -6,13 +6,11 @@ using Microsoft.Xna.Framework;
 
 namespace TheRedoMod.Items
 {
-	public class InvisibleBlock : ModItem {
-
-
-		public override void SetStaticDefaults() {
-			Tooltip.SetDefault("Mess around with your friends!");
-		}
-
+	public class InvisibleBlock : ModItem
+{
+	public override void SetStaticDefaults() {
+		Tooltip.SetDefault("Mess around with your friends!");
+	}
 
 		public override void SetDefaults() {
 			item.width = 12;

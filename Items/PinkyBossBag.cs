@@ -5,6 +5,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using TheRedoMod;
+using TheRedoMod.Items;
 
 namespace TheRedoMod.Items
 {
@@ -31,7 +32,7 @@ namespace TheRedoMod.Items
 	public override void OpenBossBag(Player player)
         {
 			player.QuickSpawnItem(ItemID.PinkGel, 30 + Main.rand.Next(10));
-			player.QuickSpawnItem(mod.ItemType<Items.PinkyPie>());
+			player.QuickSpawnItem(mod.ItemType<Items.Weapons.PinkyPie>());
 			player.QuickSpawnItem(ItemID.GoldCoin, 1 + Main.rand.Next(2));
 			player.QuickSpawnItem(ItemID.SilverCoin, 10 + Main.rand.Next(20));
 	}}}
