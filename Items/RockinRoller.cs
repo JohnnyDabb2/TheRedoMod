@@ -4,7 +4,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-	namespace TheRedoMod.Items
+namespace TheRedoMod.Items
 	{
 		public class RockinRoller : ModItem
 			{
@@ -13,7 +13,7 @@ using Terraria.ModLoader;
 			}
 
 			public override void SetDefaults() {
-				item.damage = 90;
+				item.damage = 87;
 				item.width = 40;
 				item.height = 40;
 				item.useTime = 7;
@@ -24,16 +24,16 @@ using Terraria.ModLoader;
 				item.knockBack = 5;
 				item.scale = 1.16f;
 				item.tileBoost = 3;
-				item.rare = 10;
-				item.UseSound = SoundID.Item1;
+				item.rare = 11;
+				item.UseSound = SoundID.Item47;
 				item.autoReuse = true;
 				item.melee = true;
 			}
 				public override void AddRecipes() {
 				ModRecipe recipe = new ModRecipe(mod);
 				recipe.AddIngredient(ItemID.TheAxe);
-				recipe.AddIngredient(ItemID.LunarBar, 15);
+				recipe.AddIngredient(mod, "VoidstoneBar", 10);
 				recipe.AddTile(412);
 				recipe.SetResult(this);
 				recipe.AddRecipe();
-		}}}
+	}}}

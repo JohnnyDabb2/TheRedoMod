@@ -17,13 +17,4 @@ namespace TheRedoMod
 				recipe.AddTile(412);
 				recipe.SetResult(3213);
 				recipe.AddRecipe();
-	}
-
-	public override void PostSetupContent()
-		{
-		Mod bossChecklist = ModLoader.GetMod("BossChecklist");
-			if(bossChecklist != null)
-			{
-				bossChecklist.Call("AddBossWithInfo", "Princess Pinky", 5.1f, (Func<bool>)(() => TheRedoWorld.downedPrincessPinky), "Use a [i:" + (ItemType("PinkyCrown")) + "]");
-			}
-}}}
+	}}}

@@ -12,7 +12,7 @@ namespace TheRedoMod.Items
         public override void SetDefaults()
         {
 			item.maxStack = 1;
-			item.damage = 34;
+			item.damage = 26;
 			item.knockBack = 6;
 			item.useStyle = 5;
 			item.width = 24;
@@ -21,6 +21,7 @@ namespace TheRedoMod.Items
 			item.useTime = 25;
 			item.shootSpeed = 15f;
             item.rare = 3;
+			item.crit += 7;
 			item.UseSound = SoundID.Item1;
 			item.shoot = mod.ProjectileType<PinkyPieProjectile>();
 			item.channel = true;
