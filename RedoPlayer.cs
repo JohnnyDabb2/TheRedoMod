@@ -11,9 +11,9 @@ using TheRedoMod;
 	namespace TheRedoMod
 		{
 			public class RedoPlayer : ModPlayer
+		{
+			public float DefensiveDamage;
+			public override void ResetEffects()
 				{
-					public float ExplosiveDamage;
-					public override void ResetEffects()
-						{
-							ExplosiveDamage = 1f;
-					}}}
+					DefensiveDamage = 1f;
+			}}}
